@@ -1,0 +1,427 @@
+*{
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+}
+html, 
+body{
+height: 100%;
+margin: 0px;
+padding: 0px;
+}
+img{
+max-width: 100%;
+}
+.container {
+/*ADDED*/
+display: flex;
+justify-content: center;
+
+}
+
+.home{
+height: 100vh;
+min-height: 500px;
+background-image: url(../images/banner.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+overflow-x: hidden;
+}
+.caption{
+width: 100%;
+max-width: 100%;
+position: absolute;
+top: 38%;
+color:white;
+text-transform: uppercase;
+font-family: 'Cuprum', sans-serif;
+}
+.caption p{
+font-size: 32px;
+padding-bottom: 50px;
+font-weight:100;
+}
+.caption h1{
+font-size: 66px;
+padding-bottom: 80px;
+font-weight: 900;
+}
+
+
+
+.bg-change ul{
+list-style-type:none;
+padding:0;
+}
+
+.bg-change ul li{
+display:inline-block;
+width:100px;
+padding-top: 40px ;
+padding: 7px 15px;
+
+
+}
+.navbar-brand {
+padding-left: 150px;
+}
+.bg-change ul li:hover{
+background-color: 	rgba(255,255,255,0.5);
+}
+.bg-change ul li a{
+color: white!important;
+}
+
+
+hr{
+background-color:	rgba(255,255,255,0.5)
+}
+
+
+
+#section-one{
+padding: 100px 270px;
+overflow-x: hidden;
+}
+.web-development h1{
+font-size: 60px;
+font-family: 'Cuprum', sans-serif;
+padding-bottom: 40px;
+}.web-development p{
+font-size: 18px;
+font-family: 'Cuprum', sans-serif;
+color: #777777;
+}
+span{
+font-weight: bold;
+
+}
+
+
+.id-brand h1{
+font-size: 60px;
+font-family: 'Cuprum', sans-serif;
+padding-bottom: 40px;
+}.id-brand p{
+font-size: 18px;
+font-family: 'Cuprum', sans-serif;
+color: #777777;
+}
+#section-two{
+padding-top: 100px;
+padding-bottom: 100px;
+padding-right: 230px;
+padding-left: 230px;
+overflow-x: hidden;
+background-color: #fafafa!important;}
+
+
+#section-three{
+padding-top: 100px;
+padding-bottom: 100px;
+padding-right: 100px;
+padding-left: 100px;
+overflow-x: hidden;
+}
+
+/*
+.right-point .point{
+padding-left: 0px;
+padding-right: 50px;
+}
+.right-point .fa-points{
+padding-left: 40px;
+
+}
+*/
+/*
+.left-point{
+margin-left: 35px;
+}
+*/
+.point{
+width: 400px;
+height: 170px;
+}
+
+#ii .container{
+display: none;
+justify-content: initial;
+
+}
+.fa-li {
+border-radius: 50%;
+background:#000;
+width: 70px;
+height: 70px;
+padding-top: 5px;
+text-align: center;
+color: white;
+font-size: 1em;
+
+}
+
+
+.fe{
+padding-top: 6px;
+}
+h3{
+font-size: 24px;
+font-family: 'Cuprum', sans-serif;
+}.point p{
+font-size: 18px;
+font-family: 'Cuprum', sans-serif;
+color: #777777;
+}
+
+
+#section-four{
+background-color: #fafafa!important;
+/*    height: 800px;*/
+padding-top: 100px ;
+padding-bottom: 100px;
+
+overflow-x: hidden;
+}
+.client-bubble{
+padding-left: 100px;
+}
+
+.client-title p{
+font-size: 22px;
+font-family: 'Cuprum', sans-serif;
+color: #777777;
+}.client-title h1{
+font-size: 60px;
+font-family: 'Cuprum', sans-serif;
+}
+.client-title{
+margin-bottom: 50px;
+}
+
+.blockquote p{
+
+font-size: 26px;
+color: #777777;
+}
+.blockquote-footer{
+color: #7690c5;
+
+}
+
+.blockquote{
+padding:10px 50px;
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+position: relative;
+background: #FFFFFF;
+color: #777777;
+border-radius: 10px;
+border: #f1f1f1 solid 1px;
+height: 170px;
+overflow: hidden;
+padding: 10px 30px 3px;
+}
+
+.img-cl{
+border-radius: 50%;
+/* width: 220px;
+height: 220px; */
+display: block;
+margin: auto;
+}
+
+
+#section-six{
+background-color: #111111;
+/*    height: 800px;*/
+padding-top: 100px;
+padding-bottom: 100px;
+overflow-x: hidden;
+}
+
+.card{
+border: none;
+background-color: #111111;
+height: 450px;
+
+
+}
+/* .card-deck{
+padding-left: 150px;
+padding-right: 150px;
+} */
+.card-img-top{
+width: 220px!important;
+height: 220px!important;
+border-radius: 50%;;
+display: block;
+margin: auto;
+}
+.team-header p
+{font-family: 'Cuprum', sans-serif;
+font-size: 22px;
+color: #777777;
+}.team-header h1
+{font-family: 'Cuprum', sans-serif;
+color: white;
+font-size: 60px;
+}
+.team-header{
+padding-bottom: 60px;
+}
+
+
+.card-body p{
+color: #777777;
+font-family: 'Cuprum', sans-serif;
+}.card-body h5{
+color: white;
+font-family: 'Cuprum', sans-serif;
+}
+.fsocial{
+display: inline-block;
+position: absolute;
+
+}
+
+
+
+.fa-social{
+/*display: inline-block;*/
+border-radius: 50px;
+border: solid 3px white;
+width: 40px;
+height: 40px;
+text-align: center;
+padding-top: 8px;
+margin-right: 3px;
+color: white;
+}
+.fa-social:hover{
+border-radius: 60px;
+border: solid 3px #7690c5;
+width: 50px;
+height: 50px;
+color: white;
+}
+
+.bottomteam {
+color: white;
+font-size: 20px;
+font-family: 'Cuprum', sans-serif;
+padding-left: 150px;
+padding-right: 150px;
+}
+.card-body .fa-facebook-f:hover{
+font-size: 30px; 
+padding-top: 10px;
+}
+.card-body .fa-pinterest-p:hover{
+font-size: 30px; 
+padding-top: 10px;
+}
+.card-body .fa-twitter:hover{
+font-size: 30px; 
+padding-top: 10px;
+}
+
+#section-seven{
+background-color:#7690c5;
+/*    height: 650px;*/
+padding-top: 100px;
+padding-bottom: 100px;
+padding-left: 100px;
+overflow-x: hidden;
+
+}
+.conection h5{
+color: white;
+font-family: 'Cuprum', sans-serif;
+}
+.conection p{
+font-size:22px;
+color: white;
+font-family: 'Cuprum', sans-serif;
+}
+.conection h1{
+font-size: 60px;
+color: white;
+font-family: 'Cuprum', sans-serif;
+}
+.conection {
+padding-bottom: 50px;
+}
+.ficon{
+padding-bottom: 40px;
+color: white;
+
+}.ficon span{
+font-size: 18px;
+color: white;
+padding-left: 5px;
+font-family: 'Cuprum', sans-serif;
+}
+.conect-form{
+display: block;
+margin: auto;
+}
+#footer{
+background-color:#7690c5;
+padding-top: 25px;
+padding-bottom: 25px;
+
+}
+#footer p{
+font-size: 16px;
+color: white;
+font-family: 'Cuprum', sans-serif;
+}
+
+
+.input::-moz-placeholder {
+font-family: 'Cuprum', sans-serif;
+}
+
+.embed-submit-field {
+position: relative;
+}
+textarea {
+width: 100%;
+padding: 15px;
+}
+.btn-text-area {
+position: absolute;
+right: 10px;
+bottom: 8px;
+
+-webkit-appearance: none;
+-moz-appearance: none;
+
+border: none;
+background: #ededed;
+border-radius: 3px;
+padding: 10px;
+
+transition: all .2s;
+}
+.btn-text-area:hover {
+background-color: #7690c5;
+color: #fff;
+cursor: pointer;
+}
+.ficon:hover{
+color: rgba(255,255,255,0.5);
+}
+.input-field{
+border: 1px solid #777;
+border-radius: 14px;
+outline: none;
+}
+
+
+
+
+/* 0000000000000000000000 */

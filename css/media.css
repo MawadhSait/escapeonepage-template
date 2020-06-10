@@ -1,0 +1,566 @@
+
+*{
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+}
+
+
+
+/* 320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops */
+
+
+
+@media only screen and (max-width: 319px){
+.home nav{
+padding-left: 10px!important;
+padding-right: 10px!important;
+}
+.navbar-brand {
+padding-left: 0px!important;
+}
+.bg-change ul li:hover{
+background-color: transparent!important ;
+font-size: larger;
+}
+
+/* .home{
+width: ;
+} */
+#section-one, 
+#section-two
+{ padding-left: 30px!important;}
+
+p{font-size: 20px!important;
+padding-bottom: 3px!important;}
+h1{font-size: 40px!important;}
+
+}
+
+@media only screen and (max-width: 479px){
+.home nav{
+padding-left: 10px!important;
+padding-right: 10px!important;
+}
+.bg-change ul li:hover{
+background-color:transparent!important ;
+font-size: larger;
+}
+#section-one{ padding: 0px!important;}
+.client-middle{
+padding-left: 50px;
+}
+.navbar-brand {
+padding-left: 0px!important;
+}
+#section-seven{ padding-bottom:0px!important;
+padding-left: 0px!important;
+}
+.blackq-two{
+padding-top: 6px;
+padding-left: 0px!important;
+padding-right: 0px!important;
+}
+}
+
+
+
+
+@media only screen and (width: 320px){
+.home{
+height: 60vh!important;
+min-height: 270px!important;
+}
+
+.home nav{
+padding-left: 10px!important;
+padding-right: 10px!important;
+}
+.navbar{
+background-color: rgba(118, 144, 197, 1)
+}
+.navbar-brand {
+padding-left: 0px!important;
+}
+.navbar-nav{
+background-color:  #7690c5;
+}
+.bg-change ul li:hover{
+background-color: transparent!important ;
+font-size: larger;
+}
+p{font-size: 20px!important;}
+h1{font-size: 40px!important;}
+
+.caption{
+top:120px!important; ;
+
+}
+.caption p{
+
+font-size: 15px!important;
+padding-bottom: 10px!important;
+
+}
+.caption h1{
+font-size: 30px!important;
+padding-bottom: 10px!important;
+}
+
+#section-one{ padding-top: 50px!important;
+padding-bottom: 0px!important;
+padding-right: 0px!important;
+padding-left: 0px!important;}
+
+#section-two{padding: 0px!important;}
+.web-development h1,
+.id-brand h1{
+font-size: 30px!important;
+padding-bottom: 10px!important; }
+.web-development p, 
+.id-brand p
+{font-size: 15px!important;}
+.web-development, 
+.id-brand{
+width: 310px!important; }
+#section-three{
+padding-top: 50px!important;;
+padding-bottom: 50px!important;
+padding-right: 0px!important;
+padding-left: 0px!important;
+}   
+.point{
+height: 120px!important;
+padding-left: 30px!important;
+width:300px!important;
+
+}
+
+.point p{font-size: 10px!important;}
+.point h1{font-size: 25px!important;}
+.fa-li {
+
+width: 50px!important;
+height: 50px!important;
+font-size: .6em!important;
+
+}
+#section-four{
+
+padding-top: 25px!important;
+padding-bottom: 25px!important;
+padding-left:0px!important;
+padding-right: 0px!important;
+
+}
+.blackq-two{
+padding-top: 6px;
+padding-left: 0px!important;
+padding-right: 0px!important;
+}
+
+.blockquote p{ font-size: 15px!important;}   
+.blockquote-footer{
+font-size: 10px!important;
+}
+#section-five{
+padding-top: 25px!important;
+padding-bottom: 25px!important;
+padding-left: 50px!important;
+}
+
+#section-five{
+padding-left: 80px!important;
+}
+#section-six{
+padding-top: 50px!important;
+padding-bottom: 50px!important;
+padding-left:0px!important;
+padding-right: 0px!important;
+}
+/* .card-deck{
+padding-right: 0px!important;
+
+padding-left:50px!important;
+} */
+
+.bottomteam{
+padding-left: 0px!important;
+padding-right: 0px!important;
+font-size: 15px!important;
+}
+#section-seven{ padding-bottom:0px!important;
+padding-left: 0px!important;
+}
+/* .conect-form{
+padding-left: 0px!important;
+} */
+#footer{ padding-top: 0px!important; }
+#footer p{ font-size: 5px;}
+
+}
+
+
+/* //////////////////////// */
+@media only screen and (min-width: 321px) and (max-width: 480px)  {
+.home{
+height: 50vh!important;
+min-height: 250px!important;
+}
+
+.bg-change ul li:hover{
+background-color: transparent!important ;
+font-size: larger;
+}
+.navbar-brand {
+padding-left: 0px!important;
+}
+.home nav{
+padding-left: 10px!important;
+padding-right: 10px!important;
+}
+.navbar{
+background-color: rgba(118, 144, 197, 1)
+}
+.navbar-nav{
+background-color: #7690c5;
+}
+p{font-size: 20px!important;
+padding-bottom: 3px!important;}
+h1{font-size: 40px!important;}
+
+.caption{
+
+top:150px!important; 
+}
+.caption p{
+
+font-size: 15px!important;
+padding-bottom: 10px!important;
+
+}
+.caption h1{
+font-size: 30px!important;
+padding-bottom: 10px!important;
+}
+
+#section-one,
+#section-two
+{ padding: 0px!important;}
+
+.web-development h1{
+padding-bottom: 20px!important; }
+.web-development,
+.id-brand{
+width: 350px!important; }
+#section-four{
+
+padding-top: 50px!important;
+padding-bottom: 50px!important;
+padding-left:0px!important;
+padding-right: 0px!important;
+
+}.blockquote p{ font-size: 15px!important;}   
+.blockquote-footer{
+font-size: 10px!important;
+}
+
+/* .img-cl{
+padding-left: 50px;
+} */
+.blackq-two{
+padding-top: 6px;
+padding-left: 0px!important;
+padding-right: 0px!important;
+}
+
+#section-three{
+padding-top: 50px!important;;
+padding-bottom: 50px!important;
+padding-right: 0px!important;
+padding-left: 0px!important;
+}   
+.point{
+padding-left: 45px!important;
+height: 190px!important;
+width:350px!important;
+}
+.point p{font-size: 15px!important;}
+.point h1{font-size: 25px!important;}
+#section-five{
+padding-left: 80px!important;
+}
+#section-six{
+
+padding-top: 50px!important;
+padding-bottom: 50px!important;
+padding-left:0px!important;
+padding-right: 0px!important;
+
+}
+/* .card-deck{
+padding-right: 0px!important;
+
+padding-left:50px!important;
+} */
+.card-img-top{
+width: 300px!important;
+height: 300px!important;
+}
+.bottomteam{
+padding-left: 0px!important;
+padding-right: 0px!important;
+}
+#section-seven{ padding-bottom:0px!important;
+padding-left: 0px!important;
+}
+/* .conect-form{
+padding-left: 10px!important;
+} */
+}
+
+
+@media only screen and (width: 375px) 
+{
+.caption {
+top:170px!important;
+}
+}
+
+
+
+
+@media only screen and (width: 412px){
+
+/* .card-deck{
+padding-right: 0px!important;
+
+padding-left:70px!important;
+} */
+.card-img-top{
+width: 300px!important;
+height: 300px!important;
+}
+.navbar-brand {
+padding-left: 0px!important;
+}
+}
+
+
+
+
+
+
+@media only screen and (max-width: 481px){
+.home nav{
+padding-left: 15px!important;
+padding-right: 15px!important;
+}
+
+#section-one{
+padding: 100px!important;  }
+.navbar-brand {
+padding-left: 0px!important;
+}
+}
+
+@media only screen and (width: 768px){
+.home nav{
+padding-left: 15px!important;
+padding-right: 15px!important;
+}
+.navbar-brand {
+padding-left: 0px!important;
+}#section-seven{ padding-bottom:0px!important;
+padding-right: 0px!important;
+padding-left: 0px!important;
+
+}
+#section-seven .container{
+margin:auto!important;
+}
+form{
+
+padding-left: 0px!important;
+padding-right: 0px!important;
+margin:auto!important;
+
+}
+.header{
+padding-left: 0px!important;
+padding-right: 0px!important;
+margin:auto!important;
+}
+
+}
+@media only screen and (min-width: 481px) and (max-width: 769px)  {
+.home{
+height: 50vh!important;
+min-height: 300px!important;
+}
+.bg-change ul li:hover{
+background-color: transparent!important ;
+font-size: larger;
+}
+.navbar{
+background-color: rgba(118, 144, 197, 1)
+}
+.caption{
+
+top: 150px!important;
+}
+.navbar-nav{
+background-color:  #7690c5;
+}
+#section-one, 
+#section-two{
+padding-top: 50px!important;
+padding-bottom: 50px!important;
+padding-right: 50px!important;
+padding-left: 50px!important; }
+
+.web-development h1{
+font-size: 40px!important;
+padding-bottom: 20px!important; }
+.web-development{
+width: 400px!important; }
+
+#section-three{
+padding-top: 50px!important;
+padding-bottom: 50px!important;}
+.point{
+
+padding-left: 40px!important;
+width:500px!important;
+
+}
+#section-four{
+
+padding-top: 50px!important;
+padding-bottom: 50px!important;
+padding-left:0px!important;
+padding-right: 0px!important;
+
+}
+.bottomteam{
+padding-left: 0px!important;
+padding-right: 0px!important;
+}
+/* .card-deck{
+padding-left: 0px!important;
+padding-right: 0px!important;
+} */
+.card-img-top{
+width: 200px!important;
+height: 200px!important;
+}
+/* .conect-form{
+padding-left:50px!important;
+padding-right: 0px!important;
+} */
+#section-seven{ padding-bottom:0px!important;
+padding-right: 0px!important;
+padding-left: 0px!important;
+
+}
+
+}
+
+
+@media only screen and(min-width: 790px)and (max-width: 100px) {
+    
+    .home{
+        height: 60vh!important;
+        min-height: 450px!important;
+        }
+    .navbar-brand{
+        padding-left: 0px!important;
+    }
+        .caption{
+    
+            top:0px!important;
+            }
+            .caption p{
+
+                font-size: 15px!important;
+                padding-bottom: 10px!important;
+                
+                }
+                .caption h1{
+                font-size: 30px!important;
+                padding-bottom: 10px!important;
+                }
+}
+
+
+@media only screen and (max-width: 1023px){
+    #section-one, 
+    #section-two{
+    padding-top: 50px!important;
+    padding-bottom: 50px!important;
+    padding-right: 50px!important;
+    padding-left: 50px!important; }
+    
+.home{
+    height: 60vh!important;
+    min-height: 450px!important;
+    }
+
+    .caption{
+
+        top:250px!important;
+        }
+        .navbar-brand{
+            padding-left: 15px!important;
+        }
+}
+
+@media only screen and (width: 1024px){
+
+.home{
+height: 60vh!important;
+min-height: 450px!important;
+}
+#section-four{
+
+padding-top: 50px!important;
+padding-bottom: 50px!important;
+padding-left:0px!important;
+padding-right: 0px!important;
+
+}
+.caption{
+
+top:250px!important;
+}
+.navbar-brand {
+padding-left: 50px!important;
+}
+#section-one, 
+#section-two{
+padding-top: 50px!important;
+padding-bottom: 50px!important;
+padding-right: 50px!important;
+padding-left: 50px!important; }
+#section-three{
+padding-top: 50px!important;
+padding-bottom: 50px!important;
+padding-right: 0px!important;
+padding-left: 0px!important;}
+
+.bottomteam{
+padding-left: 0px!important;
+padding-right: 0px!important;
+}
+#section-seven{ padding-bottom:0px!important;
+padding-right: 0px!important;
+padding-left: 0px!important;
+
+}
+}
+
+
+
+
