@@ -20,8 +20,9 @@ justify-content: center;
 }
 
 .home{
-height: 100vh;
-min-height: 500px;
+/* height: 100vh;
+min-height: 500px; */
+height: 620px;
 background-image: url(../images/banner.jpg);
 background-size: cover;
 background-position: center;
@@ -32,7 +33,7 @@ overflow-x: hidden;
 width: 100%;
 max-width: 100%;
 position: absolute;
-top: 38%;
+top: 35%;
 color:white;
 text-transform: uppercase;
 font-family: 'Cuprum', sans-serif;
@@ -65,6 +66,11 @@ padding: 7px 15px;
 }
 .navbar-brand {
 padding-left: 150px;
+padding-top: 15px;
+}
+#navbarNav{
+padding-right: 150px;
+padding-top: 15px;
 }
 .bg-change ul li:hover{
 background-color: 	rgba(255,255,255,0.5);
@@ -92,6 +98,7 @@ padding-bottom: 40px;
 font-size: 18px;
 font-family: 'Cuprum', sans-serif;
 color: #777777;
+font-weight: lighter!important;
 }
 span{
 font-weight: bold;
@@ -120,8 +127,8 @@ background-color: #fafafa!important;}
 #section-three{
 padding-top: 100px;
 padding-bottom: 100px;
-padding-right: 100px;
-padding-left: 100px;
+/* padding-right: 50px;
+padding-left: 50px; */
 overflow-x: hidden;
 }
 
@@ -135,11 +142,15 @@ padding-left: 40px;
 
 }
 */
-/*
+/* .right-point {
+    padding-left: 40px;
+    
+    }
+
 .left-point{
-margin-left: 35px;
-}
-*/
+padding-left: 35px;
+} */
+
 .point{
 width: 400px;
 height: 170px;
@@ -415,13 +426,17 @@ cursor: pointer;
 .ficon:hover{
 color: rgba(255,255,255,0.5);
 }
+.ficon span:hover{
+color: rgba(255,255,255,0.5);
+}
+
 .input-field{
-border: 1px solid #777;
-border-radius: 14px;
-outline: none;
+
+border-radius: 0px;
+
 }
 
 
 
 
-/* 0000000000000000000000 */
+/* 000000000000000000000011 */
